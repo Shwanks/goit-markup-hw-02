@@ -1,0 +1,245 @@
+
+:root {
+    --main-title-color: #ffffff;
+    --main-font: "Roboto", sans-serif;
+    --accent-color: #2196F3;
+    --btn-text-color: #ffffff;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+
+.comand_photo{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black{
+    color: black;
+}
+
+.blue_color {
+    color: blue;
+}
+
+.grey {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    list-style: none;
+}
+
+.pre_title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.after_title{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* -------------------HEADER--------------- */
+
+.header{
+    background-color: #FFFFFF;
+}
+
+.header_link,
+.header_tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.36;
+        letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header_cont{
+    color: #757575;
+}
+
+.header_link:hover,
+.header_link:focus {
+    color: var(--accent-color);
+}
+
+/* -------------------SOLUTION--------------- */
+.solution{
+        /* width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px; */
+        background: #2F303A;
+}
+
+ .solution_text{   
+        
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: var(--main-title-color);
+        background-color: #2F303A;
+}
+
+.button_solution{
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+        background: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        width: 200px;
+        height: 50px;
+}
+
+/* .button_text{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #FFFFFF;
+} */
+
+/* -------------------WORK--------------- */
+
+.work_title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/* -------------------COMAND--------------- */
+
+.comand_title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.comand_function {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.comand_name{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+/* -------------------CONTACTS--------------- */
+
+.contacts{
+    background: #2F303A;
+}
+
+.contacts_adress{
+    font-style: normal;
+}
+
+.logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+}
+
+.contacts_link{
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+}
+
+.contacts_link:hover,
+.contacts_link:focus {
+    color: var(--accent-color);
+}
+
+/* -------------------BUTTONS--------------- */
+.buttons{
+    background: #F5F4FA;
+    /* border-radius: 4px; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+    color: var(--btn-text-color);
+    background-color: var(--accent-color);
+}
+
+
+.project_title{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.project_text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
